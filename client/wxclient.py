@@ -260,15 +260,13 @@ def handle_recv_txt_msg(j):
         if content.startswith(helpKey):
             if is_room:
                 reply = str(
-                    b'\xe6\xac\xa2\xe8\xbf\x8e\xe4\xbd\xbf\xe7\x94\xa8 ChatGPT-weBot\xef\xbc\x8c\xe6\x9c\xac\xe9'
-                    b'\xa1\xb9\xe7\x9b\xae\xe5\x9c\xa8 github \xe5\x90\x8c\xe5\x90\x8d\xe5\xbc\x80\xe6\xba\x90\n',
+                    b'\xe6\xac\xa2\xe8\xbf\x8e\xe4\xbd\xbf\xe7\x94\xa8 ChatGPT-WeChatBot\xef\xbc\x8c\n\xe9\xa1\xb9\xe7\x9b\xae\xe9\x93\xbe\xe6\x8e\xa5\xef\xbc\x9ahttps://github.com/LinkScapeFoundation/ChatGPT-WeChatBot\n',
                     'utf-8') + helpKey + " 查看可用命令帮助\n" + groupChatKey + " 唤醒群内机器人\n" + resetChatKey + \
                         " 重置上下文\n" + regenerateKey + " 重新生成答案\n" + rollbackKey + " +数字n 回滚到倒数第n个问题"
 
             else:
                 reply = str(
-                    b'\xe6\xac\xa2\xe8\xbf\x8e\xe4\xbd\xbf\xe7\x94\xa8 ChatGPT-weBot\xef\xbc\x8c\xe6\x9c\xac\xe9'
-                    b'\xa1\xb9\xe7\x9b\xae\xe5\x9c\xa8 github \xe5\x90\x8c\xe5\x90\x8d\xe5\xbc\x80\xe6\xba\x90\n',
+                    b'\xe6\xac\xa2\xe8\xbf\x8e\xe4\xbd\xbf\xe7\x94\xa8 ChatGPT-WeChatBot\xef\xbc\x8c\n\xe9\xa1\xb9\xe7\x9b\xae\xe9\x93\xbe\xe6\x8e\xa5\xef\xbc\x9ahttps://github.com/LinkScapeFoundation/ChatGPT-WeChatBot\n',
                     'utf-8') + helpKey + " 查看可用命令帮助\n" + privateChatKey + " 唤醒机器人\n" + resetChatKey + \
                         " 重置上下文\n" + regenerateKey + " 重新生成答案\n" + rollbackKey + " +数字n 回滚到倒数第n个问题"
             time.sleep(1.5)
