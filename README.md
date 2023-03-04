@@ -123,7 +123,7 @@ https://bank.hackclub.com/donations/start/linkscape
 
 ## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/LinkScapeFoundation/ChatGPT-WeChatBot.svg)](https://starchart.cc/SnapdragonLee/ChatGPT-WeChatBot) 
+[![Stargazers over time](https://starchart.cc/LinkScapeFoundation/ChatGPT-WeChatBot.svg)](https://starchart.cc/LinkScapeFoundation/ChatGPT-WeChatBot) 
 
 ## Log
 
