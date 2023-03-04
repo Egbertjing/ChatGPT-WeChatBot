@@ -2,7 +2,7 @@
 
 Using ChatGPT-WeChatBot based on ChatGPT(Non-API key call) and the official WeChat hook interface. 
 
-English | [简体中文](https://github.com/LinkScapeFoundation/ChatGPT-WeChatBot/blob/master/Readme_CN.md)
+English | [简体中文](https://github.com/LinkScapeFoundation/ChatGPT-WeChatBot/blob/master/README_CN.md)
 
 <div align="center"> <img src="assets/DALL·E  - A robot is working hard to transform, modify, and revolutionize the WeChat software.png" width="30%"> </div>
 
